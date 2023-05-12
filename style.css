@@ -6,11 +6,63 @@ body{
 }
 header{
     text-align: center;
-    padding: 50px;
-    background:rgba(12, 16, 214, 0.712);
-    color: rgb(248, 244, 244);
+    padding: 40px;
+    background:rgba(5, 7, 88, 0.712);
+    background-image: url("/images/banner2.png");
 }
-header h1{
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+nav{    
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    padding: 15px;
 }
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+nav a:hover{
+    color:brown;
+}
+nav a:visited{
+    color:blue;
+}
+body main{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+}
+section h3{
+    font-size: 40px;
+    background: rgba(131, 190, 206, 0.384);
+    text-align:start;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+div h4{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(231, 128, 68, 0.384);
+    padding: 10px;
+}
+#zeno{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 400px;
+}
+#class1{
+    clear:left;
+}
+.zclass1{
+    font-weight: bold;
+}
+div p{
+    font-size:large;
+}
+
+
